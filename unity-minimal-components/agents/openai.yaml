@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Minimal Components"
+  short_description: "Minimal Unity framework helpers"
+  default_prompt: "Design or review a small Unity framework component using minimal scope, single responsibility, and low coupling."
