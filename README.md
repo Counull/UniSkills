@@ -1,8 +1,9 @@
 # Copilot Skills
 
-这个仓库用于维护一组面向 GitHub Copilot 的本地技能定义，主要覆盖两类工作：
+这个仓库用于维护一组面向 GitHub Copilot 的本地技能定义，主要覆盖以下几类工作：
 
 - 代码与文档的批判式审查
+- LLM Wiki / Markdown 知识库工作流维护
 - Unity 通用最小组件设计
 - Unity 窄核心抽象设计
 
@@ -11,6 +12,10 @@
 ### code-doc-roast
 
 用于把代码现实和文档表述放在一起核对，集中指出职责混装、边界模糊、生命周期靠隐式约定维持等问题。
+
+### llm-workflow-maintainer
+
+用于维护 LLM Wiki 风格的 Markdown 工作流实例，处理 source ingest、会议转写整理、功能索引更新、workflow lint、公开/私有边界判断和发布前污染检查。
 
 ### unity-minimal-components
 
@@ -25,6 +30,7 @@
 ```text
 .
 |-- code-doc-roast/
+|-- llm-workflow-maintainer/
 |-- unity-minimal-components/
 `-- unity-narrow-core/
 ```
